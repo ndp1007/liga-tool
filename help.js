@@ -8,7 +8,7 @@
     node s HANABET 
     =======> switch to HANAHA (get latest Images from domain www.HANAHA.com)
     node s HANAHA www.HANAHA.net
-    =======> switch to HANABET (get latest Images from domain www.HANAHA.net)
+    =======> switch to HABANA (get latest Images from domain www.HABANA.net)
     ------- Note important ------
     Backup Images, odds.css, menu.css, portal.css 1st if you changed them`)
                 break;
