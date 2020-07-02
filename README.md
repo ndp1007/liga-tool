@@ -9,7 +9,7 @@
     npm run setup
     ```
     
-    # CLI arguments
+# CLI arguments
     -V, --version             output the version number
     -d, --debug               output extra debugging
     -h, --help                display help for command  
@@ -24,8 +24,7 @@
             -a, --all            sync all Images
             -f, --from <index>   sync from index of WL list
             -o, --open           open WL's Images folder
-        
-    
+
 # Sample statements
 ```js
 // sync one WL name
