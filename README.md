@@ -10,7 +10,6 @@
     ```
     
 # CLI arguments
-    -V, --version             output the version number
     -d, --debug               output extra debugging
     -h, --help                display help for command  
     -awls, --all-whitelabels  sync all Images in WL list
@@ -43,12 +42,7 @@ node sync -wl BANANA -www -o
 node sync -wl BANANA -www -http -sp -o 
 
 ```
-# Knowledge
-1. Remove emty folder by recursive algorithm 
-    - https://gist.github.com/jakub-g/5903dc7e4028133704a4 normal
-    - https://gist.github.com/fixpunkt/fe32afe14fbab99d9feb4e8da7268445 promise
-
-# Change log
+# Change logs
 All notable changes to this project will be documented in this part.
 
 ## [0.3.17]
@@ -63,55 +57,24 @@ All notable changes to this project will be documented in this part.
     }
     ```
 - **-awls**/**--all-whitelabels** option
-- Sync all WLs in active WL list from WLs.json (included w3w & www)
-- Should add more **--open** option to view ensure image synced then type WL's switching command line.
     ```js
     // implicit option
     node sync -awls
     // explicit option
     node sync --all-whitelabels
     ```
+- **--sq**/**--supper-quick** option
 - **-www**/**--www** option : sync with www url'
 - **-http/--http** option : sync with http protocol
+- **-a/--all** option : sync all images of WL again
 ### Changed
 - **hasWww = false** is default
+- **quick** is default sync, disable quick mode by add -s/--safe
 
-## [0.0.6]
 ### Fixed bugs 
-- Fixed program is stopped by deleting file not found
-- Final Report list WLs are updated images to Error list
-### Added
-- **--sq**/**--supper-quick** option
-- Recommended using for sync one WL with empty WL's images folder case
-- Should add more **--open** option to view ensure image synced then type WL's switching command line.
-    ```js
-    // implicit option
-    node sync -wl BANANA -sq -o
-    // explicit option
-    node sync -wl BANANA --supper-quick --open
-    ```
-## [0.0.5]
-### Fixed bugs 
-- Uppercase whitelabel name 
-### Added
-- Final Report
-### Changed
-- **quick** is default sync, disable quick by add -s/--safe
-
-## [0.0.4]
-### Fixed bugs 
-- Trim space whitelabel name 
-- **--all** option 
+- Trim space & uppercase whitelabel name 
 - Process bar 
 - Remove all empty folders after syncing completed 
 
-### Added
-- **deplayTime** prop at switch.cfg
-- **showDownloadingFileName** prop at switch.cfg
-- **--quick** option 
-- Final Report
-### Changed
-- **quick** is default sync, disable quick by add -s/--safe
-
-## 0.0.1 - 2020-6-1
+#2020-6-1
  - 1st release
