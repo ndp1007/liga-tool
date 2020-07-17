@@ -8,7 +8,20 @@
     git clone https://github.com/ndp1007/liga-tool.git .
     npm run setup
     ```
- # liga-sync
+# liga-copy & check (old commandline) 
+- Show document by statement :
+    ```js
+    // short docs
+    node help c
+    // full docs
+    node c help
+    ```
+# liga-switch (old commandline)
+- Show document by statement :
+    ```js
+    node help s
+    ```
+# liga-sync (stardard commandline)
 # CLI arguments
     -V, --version             output the version number
     -d, --debug               output extra debugging
