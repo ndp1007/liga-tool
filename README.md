@@ -21,7 +21,7 @@
     ```js
     node help s
     ```
-# liga-sync (stardard commandline)
+# liga-sync (standard commandline)
 # CLI arguments
     -V, --version             output the version number
     -d, --debug               output extra debugging
