@@ -1,8 +1,8 @@
 {
-    "name": "switchtool",
-    "version": "1.0.0",
-    "description": "help switch project fasty",
-    "main": "install.js",
+    "name": "liga-cli",
+    "version": "1.1.1",
+    "description": "liga-cli so smooth",
+    "main": "setup.js",
     "scripts": {
         "setup": "node delete && npm install && npm audit fix && node setup && node update"
     },
