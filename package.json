@@ -18,6 +18,7 @@
         "fs-extra": "^9.0.1",
         "node-fetch": "^2.6.1",
         "rimraf": "^3.0.2",
-        "shelljs": "^0.8.4"
+        "shelljs": "^0.8.4",
+        "winattr": "^3.0.0"
     }
 }
