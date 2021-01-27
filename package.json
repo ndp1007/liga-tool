@@ -9,7 +9,7 @@
     "author": "phillip",
     "license": "ISC",
     "dependencies": {
-        "npm": "^6.14.9"
+        "npm": "^6.14.9",
         "cli-color": "^2.0.0",
         "cli-progress": "^3.8.0",
         "commander": "^5.1.0",
