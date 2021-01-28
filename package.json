@@ -19,6 +19,7 @@
         "node-fetch": "^2.6.1",
         "node-jsencrypt": "^1.0.0",
         "rimraf": "^3.0.2",
-        "shelljs": "^0.8.4"
+        "shelljs": "^0.8.4",
+        "winattr": "^3.0.0"
     }
 }
