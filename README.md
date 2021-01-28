@@ -9,7 +9,8 @@
 md liga
 cd liga
 git clone https://github.com/ndp1007/liga-tool.git .
-npm run setup
+npm install
+node update
 ```
 
 ## liga-copy & check (old commandline)
